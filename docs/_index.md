@@ -95,7 +95,7 @@ To use the Paradocs Hugo theme, you have a couple of options:
 
 ### Option 1: Copy the Paradocs example site
 
-The [Example Site](https://example.docsy.dev) gives you a good starting point for building your docs site and is
+The [Example Site](https://example.paradocs-conga.dev) gives you a good starting point for building your docs site and is
 pre-configured to use the Paradocs theme as a Git submodule. You can copy the Example Site either by:
 
 *  [Using the GitHub UI](#using-the-github-ui)
@@ -129,7 +129,7 @@ To copy the example site:
     
 1. Switch to the root of the cloned project, for example:
 
-        cd docsy-example
+        cd paradocs-conga-example
 
 1. Get local copies of the project submodules so you can build and run your site locally:
 
@@ -146,7 +146,7 @@ To copy the example site:
 
    1. [Create a new repository in GitHub](https://help.github.com/en/articles/create-a-repo) 
       for your site with your chosen repo name. For clarity you may also want to rename the root 
-      directory (`docsy-example`) of your working copy to match, though everything will still 
+      directory (`paradocs-conga-example`) of your working copy to match, though everything will still 
       work even if you don't.
 
    1. Configure 
@@ -186,7 +186,7 @@ To create a new Hugo site project and then add the Docs theme as a submodule, ru
 hugo new site myproject
 cd myproject
 git init
-git submodule add https://github.com/wj-white/paradocs-conga.git themes/docsy
+git submodule add https://github.com/wj-white/paradocs-conga.git themes/paradocs-conga
 echo 'theme = "paradocs-conga"' >> config.toml
 git submodule update --init --recursive
 ```
@@ -194,7 +194,7 @@ git submodule update --init --recursive
 To add the Paradocs theme to an existing site, run the following commands from your project's root directory:
 
 ```
-git submodule add https://github.com/wj-white/paradocs-conga.git themes/docsy
+git submodule add https://github.com/wj-white/paradocs-conga.git themes/paradocs-conga
 echo 'theme = "paradocs-conga"' >> config.toml
 git submodule update --init --recursive
 ```
@@ -262,7 +262,7 @@ time_format_default = "2006.01.02"
 time_format_blog = "2006.01.02"
 ```
 
-To remove the translated source files, delete both the `docsy-example/content/no` and the  `docsy-example/content/fa` directory.
+To remove the translated source files, delete both the `paradocs-conga-example/content/no` and the  `paradocs-conga-example/content/fa` directory.
 
 ### Search
 
@@ -327,4 +327,3 @@ If you're using WSL, ensure that you're running `hugo` on a Linux mount of the f
 * [Add content and customize your site](/docs/adding-content/)
 * Get some ideas from our [Example Site](https://github.com/wj-white/paradocs-conga-example) and other [Examples](/docs/examples/).
 * [Publish your site](/docs/deployment/).
-
