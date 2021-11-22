@@ -1,0 +1,12 @@
+name = "Paradocs"
+license = "Apache 2.0"
+licenselink = "https://github.com/wj-white/paradocs/blob/master/LICENSE"
+description = "A Hugo theme for technical documentation sites"
+homepage = "https://paradocs.dev"
+tags = ["documentation", "multilingual", "customizable", "responsive", "docs"]
+features = []
+min_version = 0.01
+
+[author]
+  name = "WJ White"
+  homepage = "https://paradocs.dev"
