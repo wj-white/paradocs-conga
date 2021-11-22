@@ -4,7 +4,14 @@
   "description": "Hugo theme for technical documentation.",
   "main": "none.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:preview": "cd userguide && npm run build:preview",
+    "build:production": "cd userguide && npm run build:production",
+    "build": "cd userguide && npm run build",
+    "install": "cd userguide && npm install",
+    "serve": "cd userguide && npm run serve",
+    "submodule:get": "git submodule update --init --recursive --depth 1",
+    "submodule:update": "git submodule update --remote --recursive --depth 1"
   },
   "repository": {
     "type": "git",
@@ -13,9 +20,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wj-white/paradocs/issues"
+    "url": "https://github.com/wj-white/paradocs-conga/issues"
   },
-  "homepage": "https://github.com/wj-white/paradocs#readme",
+  "homepage": "https://github.com/wj-white/paradocs-conga#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss": "^8.3.7",
